@@ -1,0 +1,120 @@
+.header {
+    background: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 1512px;
+    border-bottom: solid 1px #f4f4f4;
+}
+
+.header__logo {
+    font-family: jsMath-cmti10;
+    color: #f5c800;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    max-width: 1512px;
+}
+
+.form_products-grid {
+    display: grid;
+    grid-template-rows: 100px 300px 300px 100px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.products {
+    background-color: #f8f8f8;
+    width: 1512px;
+    height: 1000px;
+    padding: 70px 0;
+    gap: 20px;
+}
+
+.products-header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 0 40px;
+    justify-content: space-between;
+    max-width: 1512px;
+}
+
+.products-header__button {
+    background-color: #ffa929;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 20px;
+    width: 137px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.search-list {
+    width: 1512px;
+    height: 790px;
+    padding: 0 40px;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: #f8f8f8;
+}
+
+.list_input-textarea {
+    padding: 14.5px 10px;
+}
+.list_input-textarea textarea {
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px #e0dfde;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #fff;
+    line-height: 100%;
+    color: #e0dfdf;
+
+    appearance: none;
+}
+
+.search-list__button button {
+    width: 240px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f5c800;
+    border: none;
+    cursor: pointer;
+}
+
+.display-price {
+    width: 240px;
+    height: 113px;
+    border-bottom: solid 1px #e0dfde;
+    padding-bottom: 20px;
+}
+
+.display-price_title h3 {
+    width: 120px;
+    height: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+.display-price_select {
+    width: 240px;
+    height: 43px;
+    border-radius: 5px;
+    border: solid 1px #e0dfde;
+    justify-content: space-between;
+    padding: 11px 10px;
+    background-color: #fff;
+    color: #e0dfde;
+}
+
+.products-list {
+    
+}
